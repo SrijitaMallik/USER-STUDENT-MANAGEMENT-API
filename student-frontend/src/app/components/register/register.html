@@ -1,0 +1,18 @@
+<div class="auth-wrapper">
+  <div class="auth-card">
+    <h2>Register</h2>
+    <p>Create your account to continue</p>
+
+    <input type="email" placeholder="Email" [(ngModel)]="username" />
+    <input type="password" placeholder="Password" [(ngModel)]="password" />
+
+    <button type="button" (click)="register()">Register</button>
+
+    <p class="success" *ngIf="message">{{ message }}</p>
+    <p class="error" *ngIf="error">{{ error }}</p>
+
+    <p *ngIf="message">
+      Go to <a routerLink="/login">Login</a>
+    </p>
+  </div>
+</div>

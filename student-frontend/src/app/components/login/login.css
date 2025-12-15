@@ -1,0 +1,45 @@
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* 👈 center horizontally */
+  margin-top: 40px;
+}
+
+.login-wrapper h2 {
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.login-wrapper input {
+  width: 280px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login-wrapper button {
+  width: 120px;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.login-wrapper button:hover {
+  background-color: #2980b9;
+}
+
+.register-text {
+  margin-top: 15px;
+}
+
+.register-text a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
